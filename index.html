@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Janusz Sendyk — aplikacje Android</title>
+  <meta name="description" content="Aplikacje Android działające lokalnie (offline) — Janusz Sendyk.">
+  <style>
+    :root {
+      --bg: #F1F2F6;
+      --surface: #FFFFFF;
+      --text: #161A22;
+      --text2: #4A5263;
+      --text3: #636C7E;
+      --accent: #1C64D2;
+      --line: #DDE1EA;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0D1016;
+        --surface: #161B24;
+        --text: #F0F3F8;
+        --text2: #A8B2C2;
+        --text3: #838E9F;
+        --accent: #5C9DFF;
+        --line: #262E3D;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    h1 { margin: 0 0 8px; font-size: 1.8rem; line-height: 1.25; }
+    .subtitle { margin: 0 0 24px; color: var(--text2); }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 20px 22px;
+      margin-bottom: 16px;
+    }
+    h2 { margin: 0 0 8px; font-size: 1.15rem; }
+    p { margin: 0 0 12px; color: var(--text2); }
+    p:last-child { margin-bottom: 0; }
+    .links { display: flex; flex-wrap: wrap; gap: 14px; }
+    a { color: var(--accent); font-weight: 600; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 28px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      font-size: 0.9rem;
+      color: var(--text3);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Janusz Sendyk — aplikacje Android</h1>
+    <p class="subtitle">Proste aplikacje mobilne działające lokalnie, bez chmury i bez reklam.</p>
+
+    <section class="card">
+      <h2>Zdarzenia dnia</h2>
+      <p>Szybki dziennik codziennych obserwacji dla rodziców i opiekunów małych dzieci — działający w 100% offline.</p>
+      <div class="links">
+        <a href="zdarzenia-dnia/">O aplikacji</a>
+        <a href="zdarzenia-dnia/polityka-prywatnosci.html">Polityka prywatności</a>
+      </div>
+    </section>
+
+    <footer>
+      Kontakt: <a href="mailto:januszsendyk@gmail.com">januszsendyk@gmail.com</a>
+    </footer>
+  </main>
+</body>
+</html>
